@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Shop.css';
 import fakeData from '../../fakeData';
-import Product from './Product/Product';
 import Cart from '../Cart/Cart';
+import Product from '../Product/Product';
 
 const Shop = () => {
     const first10 = fakeData.slice(0, 10);
